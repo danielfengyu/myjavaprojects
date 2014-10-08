@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.net.Socket"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="org.apache.mina.transport.socket.nio.NioSocketAcceptor"/>
+<fullyQualifiedTypeName name="org.apache.mina.core.service.IoAcceptor"/>
+<fullyQualifiedTypeName name="org.apache.mina.filter.logging.LoggingFilter"/>
+<fullyQualifiedTypeName name="org.apache.mina.filter.codec.textline.TextLineCodecFactory"/>
+<fullyQualifiedTypeName name="org.apache.mina.filter.codec.ProtocolCodecFilter"/>
+<fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+<fullyQualifiedTypeName name="org.apache.mina.core.session.IdleStatus"/>
+<fullyQualifiedTypeName name="java.net.InetSocketAddress"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+</qualifiedTypeNameHistroy>

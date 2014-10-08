@@ -1,0 +1,30 @@
+1. install jdk, set JAVA_HOME, PATH env variables.
+2. install netbeans.
+3. install jboss 4.2.3 GA
+4. install mysql and start mysql.
+   cd %MYSQL_HOME%\bin,
+   mysqld --character-set-server=utf8      
+   mysql -uroot mysql
+   grant all privileges on *.* to java@'localhost' identified by 'java1234' with grant option;
+   exit;
+   mysql -ujava -pjava1234 test
+    
+5. create table student(id varchar(10) not null, name varchar(20) not null,
+                        gender bool not null, j2ee decimal(10,2) not null,
+                        primary key(id));
+   insert into student(id,name,gender,j2ee) values('007','james',1,100);
+   insert into student(id,name,gender,j2ee) values('008','zxx',1,59);
+
+
+6. copy mysql jdbc jar file to %JBOSS_HOME%\server\default\lib directory.
+7. copy %JBOSS_HOME%\docs\examples\jca\mysql-ds.xml(not mssql-ds.xml) file 
+   to %JBOSS_HOME%\server\default\deploy directory.
+8. edit the mysql-ds.xml above. change hostname, database name, username and password.
+9. start netbeans.
+10. new EJBModule1, add a EntityBean from database. don't deploy.
+11. new EJBModule2, add a Stateless Session Bean as Fascade. still don't deploy.
+12. new Web Application, don't deploy.
+13. new EAR project, add the 3 module above. then add application.xml deployment descripter.
+14. build the ear file, then deploy it.
+
+

@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Sun Aug 24 16:39:24 CST 2014
+org.eclipse.jst.jee.server\:StudentInformation=G\:\\Tomcat\\apache-tomcat-8.0.9\\webapps\\StudentInformation
+org.eclipse.jst.jee.server\:MVCTest=G\:\\Tomcat\\apache-tomcat-8.0.9\\webapps\\MVCTest
+org.eclipse.jst.jee.server\:MinaStudy=G\:\\Tomcat\\apache-tomcat-8.0.9\\webapps\\MinaStudy
+org.eclipse.jst.jee.server\:WebTest=G\:\\Tomcat\\apache-tomcat-8.0.9\\webapps\\WebTest
+org.eclipse.jst.jee.server\:ShopWeb=G\:\\Tomcat\\apache-tomcat-8.0.9\\webapps\\ShopWeb

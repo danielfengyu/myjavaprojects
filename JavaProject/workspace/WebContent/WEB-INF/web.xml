@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <filter>
+    <filter-name>f4</filter-name>
+    <filter-class>com.jsp.SecureFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>f4</filter-name>
+    <url-pattern>*.html</url-pattern>
+  </filter-mapping>
+   
+</web-app>
